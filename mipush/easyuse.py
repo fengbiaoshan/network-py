@@ -4,9 +4,9 @@ from base.APIMessage import PushMessage
 from APISender import APISender
 from base.APIConstants import Constants
 
-APP_SECRET = '*****************************'
+APP_SECRET = '*******************'
 
-RECIEVER_ALIAS = '**********************'
+RECIEVER_ALIAS = '****'
 
 def sendMessage(title, description, payload, notify_id=1):
     message = PushMessage() \

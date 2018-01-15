@@ -1,5 +1,5 @@
 # coding=utf-8
-from base.APIConstants import Constants
+from APIConstants import Constants
 
 
 class MessageDict(dict):
